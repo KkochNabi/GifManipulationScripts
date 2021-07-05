@@ -10,3 +10,7 @@ These scripts have only been tested on **Windows**, but they may work on other p
 ``frameSkippingGif.py`` Drag and drop a ``.gif`` file to create a gif that skips every other frame. May produce undesirable effects in the output gif. _Requires wand.image_
 
 ``frameSkippingGifOdd.py`` Drag and drop a ``.gif`` file to create a gif that skips every other frame starting from the first frame. May produce undesirable effects in the output gif. _Requires wand.image_
+
+``frameSkippingApng.py`` Drag and drop an animated ``.png`` file to create an apng that skips every other frame. _Requires APNG_
+
+``minimumDelayApng.py`` Drag and drop an animated ``.png`` file to create an apng with each frame set to the lowest delay rendered (11ms in Firefox and Chromium). _Requires APNG_
